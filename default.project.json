@@ -1,0 +1,51 @@
+{
+  "name": "caribbean-beach-escape",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "src/ReplicatedStorage/GameConfig"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/Remotes"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/ServerScriptService/Server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Client"
+        }
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [255, 211, 138],
+        "Brightness": 3,
+        "ClockTime": 14,
+        "EnvironmentDiffuseScale": 0.7,
+        "EnvironmentSpecularScale": 0.5,
+        "OutdoorAmbient": [255, 226, 184],
+        "GlobalShadows": true,
+        "FogEnd": 600,
+        "FogStart": 50
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "Gravity": 196.2
+      }
+    }
+  }
+}
